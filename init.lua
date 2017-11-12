@@ -428,14 +428,14 @@ minetest.register_node("protector:steelprotect", {
 	on_blast = function() end,
 })
 
-minetest.register_craft({
-	output = "protector:steelprotect",
-	recipe = {
-		{"default:stone", "default:stone", "default:stone"},
-		{"default:stone", "default:steelblock", "default:stone"},
-		{"default:stone", "default:stone", "default:stone"},
-	}
-})
+--minetest.register_craft({
+	--output = "protector:steelprotect",
+	--recipe = {
+	--	{"default:stone", "default:stone", "default:stone"},
+	--	{"default:stone", "default:steelblock", "default:stone"},
+	--	{"default:stone", "default:stone", "default:stone"},
+--	}
+--})
 -- steel protection node
 minetest.register_node("protector:meseprotect", {
 	description = S("Mese Protection Block") .. " (" .. S("USE for area check") .. ")",
@@ -508,14 +508,14 @@ minetest.register_node("protector:meseprotect", {
 	on_blast = function() end,
 })
 
-minetest.register_craft({
-	output = "protector:meseprotect",
-	recipe = {
-		{"default:stone", "default:stone", "default:stone"},
-		{"default:stone", "default:mese", "default:stone"},
-		{"default:stone", "default:stone", "default:stone"},
-	}
-})
+--minetest.register_craft({
+--	output = "protector:meseprotect",
+--	recipe = {
+	--	{"default:stone", "default:stone", "default:stone"},
+	--	{"default:stone", "default:mese", "default:stone"},
+	--	{"default:stone", "default:stone", "default:stone"},
+--	}
+--})
 -- steel protection node
 minetest.register_node("protector:diamondprotect", {
 	description = S("Diamond Protection Block") .. " (" .. S("USE for area check") .. ")",
@@ -588,14 +588,14 @@ minetest.register_node("protector:diamondprotect", {
 	on_blast = function() end,
 })
 
-minetest.register_craft({
-	output = "protector:diamondprotect",
-	recipe = {
-		{"default:stone", "default:stone", "default:stone"},
-		{"default:stone", "default:diamondblock", "default:stone"},
-		{"default:stone", "default:stone", "default:stone"},
-	}
-})
+--minetest.register_craft({
+--	output = "protector:diamondprotect",
+--	recipe = {
+	--	{"default:stone", "default:stone", "default:stone"},
+	--	{"default:stone", "default:diamondblock", "default:stone"},
+	--	{"default:stone", "default:stone", "default:stone"},
+--	}
+--})
 -- copper protection node
 minetest.register_node("protector:copperprotect", {
 	description = S("Copper Protection Block") .. " (" .. S("USE for area check") .. ")",
@@ -668,14 +668,14 @@ minetest.register_node("protector:copperprotect", {
 	on_blast = function() end,
 })
 
-minetest.register_craft({
-	output = "protector:copperprotect",
-	recipe = {
-		{"default:stone", "default:stone", "default:stone"},
-		{"default:stone", "default:copperblock", "default:stone"},
-		{"default:stone", "default:stone", "default:stone"},
-	}
-})
+--minetest.register_craft({
+--	output = "protector:copperprotect",
+--	recipe = {
+	--	{"default:stone", "default:stone", "default:stone"},
+		--{"default:stone", "default:copperblock", "default:stone"},
+		--{"default:stone", "default:stone", "default:stone"},
+	--}
+--})
 
 
 -- protection logo
